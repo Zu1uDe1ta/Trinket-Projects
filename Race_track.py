@@ -38,13 +38,32 @@ ada.goto(-160, 100)
 ada.pendown()
 
 bob = Turtle()
-bob.color('blue')
+bob.color('yellow')
 bob.shape('turtle')
 
 bob.penup()
 bob.goto(-160, 70)
 bob.pendown()
 
+tim = Turtle()
+tim.color('green')
+tim.shape('turtle')
+
+tim.penup()
+tim.goto(-160, 40)
+tim.pendown()
+
+claire = Turtle()
+claire.color('orange')
+claire.shape('turtle')
+
+claire.penup()
+claire.goto(-160, 10)
+claire.pendown()
+
 for turn in range(100):
   ada.forward(randint(1,5))
+  bob.forward(randint(1,5))
+  tim.forward(randint(1,5))
+  claire.forward(randint(1,5))
   bob.forward(randint(1,5))
